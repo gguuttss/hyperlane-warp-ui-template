@@ -11,7 +11,7 @@ tokens:
     name: BNB
     standard: EvmHypNative
     symbol: BNB
-    logoURI: /logos/bnb.png
+    logoURI: /deployments/warp_routes/BNB/logo.svg
   - addressOrDenom: component_rdx1cpsxagjgh6yw4lkscwptlg2fvvha4sg7fgrf0x9mdntp3nxen0hzfy
     chainName: radix
     connections:
@@ -20,5 +20,5 @@ tokens:
     name: Hyperlane BNB
     standard: RadixHypSynthetic
     symbol: hBNB
-    logoURI: /logos/bnb.png
+    logoURI: /deployments/warp_routes/BNB/logo.svg
 options: {}
