@@ -2,5 +2,21 @@
 # These configs will be merged with the warp routes in the configured registry
 # The input here is typically the output of the Hyperlane CLI warp deploy command
 ---
-tokens: []
+tokens:
+  - addressOrDenom: "0xdd615fCfed0E2BE65041053DA12C3C95C6A16957"
+    chainName: bsc
+    connections:
+      - token: radix|radix|component_rdx1cpsxagjgh6yw4lkscwptlg2fvvha4sg7fgrf0x9mdntp3nxen0hzfy
+    decimals: 18
+    name: BNB
+    standard: EvmHypNative
+    symbol: BNB
+  - addressOrDenom: component_rdx1cpsxagjgh6yw4lkscwptlg2fvvha4sg7fgrf0x9mdntp3nxen0hzfy
+    chainName: radix
+    connections:
+      - token: ethereum|bsc|0xdd615fCfed0E2BE65041053DA12C3C95C6A16957
+    decimals: 18
+    name: Hyperlane BNB
+    standard: RadixHypSynthetic
+    symbol: hBNB
 options: {}
